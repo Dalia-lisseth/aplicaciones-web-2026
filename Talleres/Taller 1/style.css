@@ -1,0 +1,49 @@
+/* Estilos generales del cuerpo */
+body {
+    margin: 0; /* Elimina margen por defecto */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente */
+    background-color: #f4f7f6; /* Fondo */
+    color: #333; /* Color del texto */
+    line-height: 1.6; /* Espaciado */
+}
+
+/* Encabezado */
+header {
+    background: #4e1a30; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    text-align: center; /* Centrado */
+    padding: 2rem 0; /* Espaciado */
+}
+
+/* Contenedor principal (Box Model) */
+.contenedor {
+    width: 80%; /* Ancho */
+    margin: 20px auto; /* Centrado horizontal */
+    background: rgb(255, 255, 255); /* Fondo contenedor */
+    padding: 30px; /* Espacio interno */
+    border-radius: 8px; /* Bordes */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra */
+}
+
+/* Flexbox para habilidades */
+.habilidades {
+    display: flex; /* Activa flexbox */
+    justify-content: space-around; /* Distribuye elementos */
+    list-style: none; /* Quita viñetas */
+    padding: 0; /* Quita padding */
+}
+
+/* Botón */
+button {
+    background: #3498db; /* Azul */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espacio interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor tipo mano */
+}
+
+/* Hover del botón */
+button:hover {
+    background: #2980b9; /* Azul más oscuro */
+}

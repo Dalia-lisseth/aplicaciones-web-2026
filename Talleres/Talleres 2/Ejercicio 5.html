@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tarea 4</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+    // Solicita el primer número
+    var numero1 = parseFloat(prompt("Ingrese el primer número:"));
+
+    // Solicita el segundo número
+    var numero2 = parseFloat(prompt("Ingrese el segundo número:"));
+
+    // Variable para guardar el resultado
+    var resultado;
+
+    // Bucle de 5 iteraciones
+    for (var i = 1; i <= 5; i++) {
+
+        // Primera iteración: SUMA
+        if (i == 1) {
+
+            resultado = numero1 + numero2;
+
+            alert("ITERACIÓN 1\nSUMA: " + resultado);
+        }
+
+        // Segunda iteración: RESTA
+        else if (i == 2) {
+
+            resultado = numero1 - numero2;
+
+            alert("ITERACIÓN 2\nRESTA: " + resultado);
+        }
+
+        // Tercera iteración: MULTIPLICACIÓN
+        else if (i == 3) {
+
+            resultado = numero1 * numero2;
+
+            alert("ITERACIÓN 3\nMULTIPLICACIÓN: " + resultado);
+        }
+
+        // Cuarta iteración: DIVISIÓN
+        else if (i == 4) {
+
+            resultado = numero1 / numero2;
+
+            alert("ITERACIÓN 4\nDIVISIÓN: " + resultado);
+        }
+
+        // Quinta iteración: MÓDULO
+        else if (i == 5) {
+
+            resultado = numero1 % numero2;
+
+            alert("ITERACIÓN 5\nMÓDULO: " + resultado);
+        }
+    }
+
+</script>
+
+</body>
+</html>

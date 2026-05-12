@@ -1,0 +1,62 @@
+/* Estilos generales del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Tipo de letra */
+    background: linear-gradient(to right, #4facfe, #00f2fe); /* Fondo con degradado */
+    display: flex; /* Activa Flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+}
+
+/* Contenedor principal del formulario */
+.formulario {
+    background: white; /* Fondo blanco */
+    padding: 30px; /* Espacio interno */
+    border-radius: 12px; /* Bordes redondeados */
+    width: 380px; /* Ancho fijo */
+    box-shadow: 0 0 15px rgba(0,0,0,0.2); /* Sombra para efecto de tarjeta */
+}
+
+/* Título del formulario */
+h2 {
+    text-align: center; /* Centra el texto */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilo de las etiquetas (labels) */
+label {
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilo de los campos de entrada */
+input {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    padding: 10px; /* Espacio interno */
+    margin: 8px 0 15px; /* Espaciado entre elementos */
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 6px; /* Bordes redondeados */
+}
+
+/* Botón de enviar */
+button {
+    width: 100%; /* Ocupa todo el ancho */
+    padding: 12px; /* Espacio interno */
+    background-color: #4facfe; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 6px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    font-size: 16px; /* Tamaño del texto */
+}
+
+/* Efecto cuando el mouse pasa sobre el botón */
+button:hover {
+    background-color: #007BFF; /* Color más oscuro al pasar el mouse */
+}
+
+/* Mensaje de validación o éxito */
+.mensaje {
+    text-align: center; /* Centra el texto */
+    margin-top: 10px; /* Espacio superior */
+    font-weight: bold; /* Texto en negrita */
+}
